@@ -548,19 +548,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.getElementById('blog-modal-close');
 
     if (closeBtn) {
-        closeBtn.onclick = closeBlogModal;
+        closeBtn.addEventListener('click', closeBlogModal);
     }
 
     if (modal) {
-        modal.onclick = (e) => {
+        modal.addEventListener('click', (e) => {
             if (e.target === modal) {
                 closeBlogModal();
             }
-        };
+        });
     }
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === "Escape") {
+        if (e.key === "Escape" && modal && modal.style.display === "flex") {
             closeBlogModal();
         }
     });
