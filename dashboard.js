@@ -514,6 +514,13 @@ function renderBlogPosts(posts) {
     }
 }
 
+function escapeHTML(str) {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+let previousBodyOverflow = "";
 // Blog Modal Logic
 function openBlogModal(index) {
     const post = window.blogPostsData[index];
@@ -526,21 +533,21 @@ function openBlogModal(index) {
 
     title.textContent = post.title;
     date.innerHTML = `<i class="fas fa-calendar mr-1"></i> ${formatDate(post.date)}`;
-
     content.innerHTML = post.content
-        ? post.content
-        : `<p>${post.excerpt}</p><p class="italic text-gray-500 mt-4">(No full content available)</p>`;
+    ? post.content
+    : `<p>${escapeHTML(post.excerpt)}</p>
+       <p class="italic text-gray-500 mt-4">(No full content available)</p>`;
 
     modal.style.display = "flex";
+    previousBodyOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
 }
 
 function closeBlogModal() {
     const modal = document.getElementById('blog-modal');
     modal.style.display = "none";
-    document.body.style.overflow = "auto";
+    document.body.style.overflow = previousBodyOverflow;
 }
-
 
 // Event listeners for modal
 document.addEventListener('DOMContentLoaded', () => {
@@ -560,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === "Escape" && modal && modal.style.display !== "none") {
+        if (e.key === "Escape" && modal && getComputedStyle(modal).display !== "none"){
             closeBlogModal();
         }
     });
