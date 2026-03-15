@@ -288,8 +288,8 @@ If you encounter issues or have questions:
 
 The following users have forked this project:
 
+- [Adarshkumar0509/MY-GSOC-TOOL](https://github.com/Adarshkumar0509/MY-GSOC-TOOL) - ⭐ 5 stars
 - [Pritz395/MY-GSOC-TOOL](https://github.com/Pritz395/MY-GSOC-TOOL) - ⭐ 2 stars
-- [Adarshkumar0509/MY-GSOC-TOOL](https://github.com/Adarshkumar0509/MY-GSOC-TOOL) - ⭐ 2 stars
 - [snk-git-hub/MY-GSOC-TOOL](https://github.com/snk-git-hub/MY-GSOC-TOOL) - ⭐ 0 stars
 - [ananya-09/MY-GSOC-TOOL](https://github.com/ananya-09/MY-GSOC-TOOL) - ⭐ 0 stars
 - [Shubhangpathak/MY-GSOC-TOOL](https://github.com/Shubhangpathak/MY-GSOC-TOOL) - ⭐ 0 stars
@@ -317,7 +317,7 @@ The following users have forked this project:
 - [sidd190/MY-GSOC-TOOL](https://github.com/sidd190/MY-GSOC-TOOL) - ⭐ 0 stars
 - [Krishiv-Mahajan/MY-GSOC-TOOL](https://github.com/Krishiv-Mahajan/MY-GSOC-TOOL) - ⭐ 0 stars
 
-_Last updated: 2026-03-14 00:25:26 UTC_
+_Last updated: 2026-03-15 00:32:44 UTC_
 <!-- FORKS_END -->
 
 ---
