@@ -1,10 +1,53 @@
 {
   "stats": {
-    "commits": 0,
-    "pullRequests": 0,
-    "issues": 0,
-    "reviews": 0
+    "commits": 58,
+    "pullRequests": 7,
+    "issues": 4,
+    "reviews": 1
   },
-  "contributions": [],
-  "lastUpdated": "2026-02-19T00:35:46.717Z"
+  "contributions": [
+    {
+      "title": "fix(leaderboard): enforce live org reconciliation to prevent drift",
+      "description": "Pull Request #79 in OWASP-BLT/BLT-Pool",
+      "date": "2026-03-17T14:07:19Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Pool/pull/79"
+    },
+    {
+      "title": "Fix/webhook fail closed health guard",
+      "description": "Pull Request #77 in OWASP-BLT/BLT-Pool",
+      "date": "2026-03-16T08:28:30Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Pool/pull/77"
+    },
+    {
+      "title": "fix: Leaderboard stale data drift & broken PFP UI",
+      "description": "Pull Request #63 in OWASP-BLT/BLT-Pool",
+      "date": "2026-03-14T16:42:04Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Pool/pull/63"
+    },
+    {
+      "title": "Feature/checks api wrapper",
+      "description": "Pull Request #54 in OWASP-BLT/BLT-Pool",
+      "date": "2026-03-14T13:50:52Z",
+      "url": "https://github.com/OWASP-BLT/BLT-Pool/pull/54"
+    },
+    {
+      "title": "Remove all newsletter code from Core directory",
+      "description": "Pull Request #5885 in OWASP-BLT/BLT",
+      "date": "2026-02-23T09:59:43Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5885"
+    },
+    {
+      "title": "Add management command to delete unverified users (closes #3387)",
+      "description": "Pull Request #5622 in OWASP-BLT/BLT",
+      "date": "2026-02-09T09:54:37Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5622"
+    },
+    {
+      "title": "Add GitHub comment leaderboard with webhook and backfill support for OWASP-BLT repo",
+      "description": "Pull Request #5568 in OWASP-BLT/BLT",
+      "date": "2026-01-30T09:33:08Z",
+      "url": "https://github.com/OWASP-BLT/BLT/pull/5568"
+    }
+  ],
+  "lastUpdated": "2026-03-19T14:00:29.058Z"
 }
